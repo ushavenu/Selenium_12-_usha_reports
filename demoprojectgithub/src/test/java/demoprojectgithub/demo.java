@@ -10,7 +10,7 @@ public class demo {
 	public void launchBrowser()
 	{
 	WebDriver driver=new ChromeDriver();
-	driver.get("https://demowebshop.tricentis.com/");
+	driver.get("https://www.flipkart.com/");
 		driver.quit();
 	}
 }
