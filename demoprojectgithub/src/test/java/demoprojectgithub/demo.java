@@ -11,5 +11,6 @@ public class demo {
 	{
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://demowebshop.tricentis.com/");
+		driver.quit();
 	}
 }
